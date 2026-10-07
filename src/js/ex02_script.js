@@ -10,6 +10,7 @@
 // Entre 18.5 e 24.9 (peso ideal)
 // 24.9 (acima do peso)
 
+
 // Function - Guarda o código para rodar quando o usuário clicar no botão do HTML
 function executarEx02() {
   // Exibe uma mensagem de boas-vindas ao usuário e pede seu nome
@@ -25,18 +26,18 @@ function executarEx02() {
   let imc = peso / altura ** 2;
 
   // Exibe o IMC arredondado para 2 casas decimais
-  alert(`O seu IMC é de ${imc.toFixed(2)}`);
+  alert(`O seu IMC é de ${imc.toFixed(2)}`)
 
   // Verifica se o usuário está abaixo do peso, no peso ideal ou acima do peso e exibe o resultado
   if (imc < 18.5) {
-    alert(`${nome}, você está ABAIXO DO PESO!`);
+    alert(`${nome}, você está ABAIXO DO PESO!`)
   } 
   
   else if (imc >= 18.5 && imc <= 24.9) {
-    alert(`${nome}, você está no PESO IDEAL!`);
+    alert(`${nome}, você está no PESO IDEAL!`)
   } 
   
   else {
-    alert(`${nome}, você está ACIMA DO PESO!`);
+    alert(`${nome}, você está ACIMA DO PESO!`)
   }
 }
