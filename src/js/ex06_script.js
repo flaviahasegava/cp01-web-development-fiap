@@ -4,14 +4,14 @@
 // --------------------------------------------------------
 
 // AUTENTICAÇÃO
-// usuario = admin
-// senha = 1234
+// usuario = "admin"
+// senha = "1234"
 
 
 function executarEx06 () {
     // Pede o usuário e a senha
-    let usuario = prompt (`Digite seu nome de usuário: `);
-    let senha = prompt (`Digite a sua senha: `);
+    let usuario = prompt (`Digite seu nome de usuário:`);
+    let senha = prompt (`Digite a sua senha:`);
     
     // Verifica se digitou o usuário e senha correta
     if (usuario == `admin` && senha == `1234`) {

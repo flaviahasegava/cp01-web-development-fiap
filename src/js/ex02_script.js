@@ -15,12 +15,12 @@
 function executarEx02() {
   // Exibe uma mensagem de boas-vindas ao usuário e pede seu nome
   alert(`-+-+- Bem-vindo(a) ao calculador de IMC -+-+-`);
-  let nome = prompt("Qual o seu nome? ");
+  let nome = prompt("Qual o seu nome?");
   alert(`Olá, ${nome}!`);
 
   // Pede ao usuário o peso e a altura
-  let peso = prompt(`Por favor, digite o seu peso: `);
-  let altura = prompt(`Digite a sua altura: `);
+  let peso = prompt(`Por favor, digite o seu peso:`);
+  let altura = prompt(`Digite a sua altura:`);
 
   // Calcular o IMC
   let imc = peso / altura ** 2;
