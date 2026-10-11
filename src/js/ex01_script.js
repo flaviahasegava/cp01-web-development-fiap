@@ -4,6 +4,8 @@
 // --------------------------------------------------------
 
 // cria-se 3 tipos de variaveis diferentes
+
+function executarEx01() {
 const val01 = 10;
 const val02 = "10"; // string (texto)
 const val03 = 5; 
@@ -26,5 +28,4 @@ console.log(val01 >= val03); // saida true
 console.log("O valor 03 é maior que o valor 01?");
 console.log(val03 >= val01); // saida false
 
-
-
+}

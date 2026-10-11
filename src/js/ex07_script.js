@@ -6,6 +6,7 @@
 // --------------------------------------------------------
 
 // define as 7 notas
+function executarEx07() {
 const nota1 = 7.5;
 const nota2 = 9.0;
 const nota3 = 8.0;
@@ -26,4 +27,6 @@ if (media >= 6) {
     console.log("Aluno APROVADO!");
 } else {
     console.log("Aluno REPROVADO!");
+}
+
 }
