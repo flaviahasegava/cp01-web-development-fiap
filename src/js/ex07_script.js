@@ -7,26 +7,26 @@
 
 // define as 7 notas
 function executarEx07() {
-const nota1 = 7.5;
-const nota2 = 9.0;
-const nota3 = 8.0;
-const nota4 = 7.0;
-const nota5 = 9.0;
-const nota6 = 8.5;
-const nota7 = 6.0;
+let nota1 = Number(prompt("Digite sua primeira nota: "));
+let nota2 = Number(prompt("Digite sua segunda nota: "));
+let nota3 = Number(prompt("Digite sua terceira nota: "));
+let nota4 = Number(prompt("Digite sua quarta nota: "));
+let nota5 = Number(prompt("Digite sua quinta nota: "));
+let nota6 = Number(prompt("Digite sua sexta nota: "));
+let nota7 = Number(prompt("Digite sua sétima nota: "));
 
 //  calcula a soma e a media aritmetica
-const soma = nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7;
-const media = soma /7;
+let soma = nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7;
+let media = soma /7;
 
 //  media arredondada p 2 casas decimais 
-console.log("Média final do aluno: " + media.toFixed(2)); // saida 7.29
+alert("Média final do aluno: " + media.toFixed(2)); // saida 
 
 // verifica se foi aprovado ou reprovado
 if (media >= 6) {
-    console.log("Aluno APROVADO!");
+    alert("Aluno APROVADO!");
 } else {
-    console.log("Aluno REPROVADO!");
+    alert("Aluno REPROVADO!");
 }
 
 }
