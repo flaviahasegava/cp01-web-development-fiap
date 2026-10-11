@@ -11,7 +11,7 @@ const val02 = "10"; // string (texto)
 const val03 = 5; 
 
 // demonstração do operador != de diferença
-console.log("\nDiferença entre o valor 01 e valor 02:")
+console.log("\nDiferença entre o valor 01 e valor 02:");
 console.log(val01 != val02); // saida false
 
 // demonstração do operador === de igualdade  

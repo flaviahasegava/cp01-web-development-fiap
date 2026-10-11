@@ -5,11 +5,11 @@
 
 // solicita a idade do usuario 
 function executarEx05() {
-let idade = prompt("Digite sua idade: ")
+let idade = prompt("Digite sua idade: ");
 
 // define idade como number
 idade = Number(idade);
-let mensagem = (idade >= 18) ? "Acesso permitido" : "Acesso negado" // verifica acesso
+let mensagem = (idade >= 18) ? "Acesso permitido" : "Acesso negado"; // verifica acesso
 
 alert(mensagem); 
 }
