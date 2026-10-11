@@ -1,0 +1,8 @@
+Equipe:
+
+Eduardo Ambra Castro 575453
+Flávia Sirahata Hasegava 575681
+Lirity Ribeiro de Paiva 574133
+
+GitHub: https://github.com/flaviahasegava/cp01-web-development-fiap
+GitHub Pages: https://flaviahasegava.github.io/cp01-web-development-fiap/
