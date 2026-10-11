@@ -5,7 +5,7 @@
 // Demonstre a saída.
 // --------------------------------------------------------
 
-// definimos as notas
+// define as 7 notas
 const nota1 = 7.5;
 const nota2 = 9.0;
 const nota3 = 8.0;
