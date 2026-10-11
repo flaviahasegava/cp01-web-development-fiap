@@ -7,8 +7,9 @@
 function executarEx05() {
 let idade = prompt("Digite sua idade: ")
 
+// define idade como number
 idade = Number(idade);
-let mensagem = (idade >= 18) ? "Acesso permitido" : "Acesso negado"
+let mensagem = (idade >= 18) ? "Acesso permitido" : "Acesso negado" // verifica acesso
 
-alert(mensagem);
+alert(mensagem); 
 }
